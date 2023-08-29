@@ -1,0 +1,196 @@
+    /* Reset and general styles */
+    body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      /* Schedule table styles */
+      .schedule-table {
+        margin: 20px auto;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+      }
+  
+      .schedule-table th, .schedule-table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+      }
+  
+      .schedule-table th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+        color: #333;
+      }
+  
+      .schedule-table th:first-child, .schedule-table td:first-child {
+        background-color: #f0f0f0;
+      }
+  
+      /* Day header styles */
+      .day-header {
+        background-color: #37474F;
+        color: white;
+        font-weight: bold;
+      }
+  
+   /* Popup form styles */
+  .popup-form {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 100;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    left: 50%; /* Center the popup horizontally */
+    top: 50%;  /* Center the popup vertically */
+    transform: translate(-50%, -50%); /* Adjust centering */
+  }
+  
+  .popup-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form items horizontally */
+  }
+  
+  .popup-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    text-align: left; /* Adjust label alignment */
+  }
+  
+  .popup-form input{  width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;}
+  .popup-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .popup-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  .popup-form button:hover {
+    background-color: #0056b3;
+  }
+  
+      /* Course color classes */
+      .course-color-1 { background-color: #FF5722; }
+      .course-color-2 { background-color: #03A9F4; }
+      .course-color-3 { background-color: #4CAF50; }
+      .course-color-4 { background-color: #F44336; }
+      .course-color-5 { background-color: #9E9E9E; }
+      .course-color-6 { background-color: #FFC107; }
+      .course-color-7 { background-color: #9C27B0; }
+      .course-color-8 { background-color: #673AB7; }
+      /* Add more color classes as needed */
+  
+      /* Button styles */
+      #addCourseBtn {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 100%;
+      }
+  
+      #addCourseBtn:hover {
+        background-color: #0056b3;
+      }
+  
+      /* Enhanced cell hover effect */
+      .schedule-table td:hover {
+        background-color: #D0D0D0;
+      }
+  
+      /* 3D Effect */
+      .schedule-table td {
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+      }
+  
+      .schedule-table td:hover {
+        transform: scale(1.05);
+        background-color: #e1e1e1;
+      }
+      .delete-content {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .delete-content:hover {
+    background-color: #F44336;
+  }
+  
+  .delete-hover {
+    background-color: #F44336;
+  }
+  #addCourseBtn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px; /* Add margin to separate buttons */
+  }
+  
+  #addCourseBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #cancelBtn {
+    background-color: #ccc; /* Change color of Cancel button */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px; /* Add margin to separate buttons */
+  }
+  
+  #cancelBtn:hover {
+    background-color: #999; /* Change hover color of Cancel button */
+  }
+  
